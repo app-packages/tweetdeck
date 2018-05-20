@@ -1,0 +1,16 @@
+{
+  "name": "tweetdeck-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "nativefier": "^7.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "nativefier https://tweetdeck.twitter.com/ --name tweetdeck --inject ./index.js"
+  },
+  "author": "abouthiroppy <git@about-hiroppy.com> (http://about-hiroppy.com)",
+  "license": "MIT"
+}
